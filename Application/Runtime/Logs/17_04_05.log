@@ -1,0 +1,11 @@
+[ 2017-04-05T13:06:02+08:00 ] ::1 /demo1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017476s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\AppServ\www\demo1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect(): Your password has expired. To log in you must change it using a client that supports expired passwords. D:\AppServ\www\demo1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Your password has expired. To log in you must change it using a client that supports expired passwords.
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+
+
+<!-- Bootstrap Core CSS -->
+<link href="__ROOT__/Application/home/Common/resource/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- MetisMenu CSS -->
+<link href="__ROOT__/Application/home/Common/resource/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+<!-- DataTables CSS -->
+<link href="__ROOT__/Application/home/Common/resource/vendor/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+<!-- DataTables Responsive CSS -->
+<link href="__ROOT__/Application/home/Common/resource/vendor/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="__ROOT__/Application/home/Common/resource/dist/css/sb-admin-2.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="__ROOT__/Application/home/Common/resource/vendor/font-abgsome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+
+<ul class="nav navbar-top-links navbar-right">
+
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+</a>
+<ul class="dropdown-menu dropdown-user">
+
+<li><a href="__APP__/Home/Index/loginout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<div class="col-lg-6">
+<div class="panel panel-default">
+<div class="panel-heading">
+会议：{$projectinfo['pro_name']}
+</div>
+<!-- /.panel-heading -->
+<div class="panel-body">
+<div class="table-responsive">
+<table class="table">
+    <tr>
+        <td>项目名称</td>
+        <td>{$projectinfo['pro_name']}</td>
+    </tr>
+
+    <tr>
+        <td>限制人数</td>
+        <td>{$projectinfo['pro_limit']}</td>
+    </tr>
+
+    <tr>
+        <td>起始时间</td>
+        <td>{$projectinfo['pro_time_start']}</td>
+    </tr>
+
+    <tr>
+        <td>结束时间</td>
+        <td>{$projectinfo['pro_time_end']}</td>
+    </tr>
+
+    <tr>
+        <td>说明</td>
+        <td>{$projectinfo['pro_instruct']}</td>
+    </tr>
+
+
+    <tr>
+        <td>备注</td>
+        <td>{$projectinfo['pro_remark']}</td>
+    </tr>
+</table>
+</div>
+<!-- /.table-responsive -->
+</div>
+<!-- /.panel-body -->
+
+
+
+</div>
+<!-- /.panel -->
+</div>
+<!-- /.col-lg-6 -->
+</div>
+
+<!-- /.row -->
+</body>
+</html>
