@@ -7,7 +7,7 @@
 - 安装php网站建站组合工具包appserv，将代码解压到php根目录
 
 - 管理员界面(http://localhost:8080/trainee/Admin)：
-用户名：amdmin
+用户名：admin
 密码:admin
 
 登入之后可以获取现有会议信息，增删改查会议信息和授权报名单位，对管理员基本信息进行修改
